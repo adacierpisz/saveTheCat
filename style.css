@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(3c.svg);
+}
+
+#character{
+    width: 20px;
+    height: 20px;
+    /*background-color: blue;*/
+    background-image: url(2a.svg);
+    border-radius: 50%;
+    position: relative;
+    top: 440px;
+    left: 190px;
+    z-index: 100000;
+}
+
+#score{
+    width: 100px;
+    height: 50px;
+    background-image: url(5b.svg);
+    /*margin: 0;*/
+   /* position: absolute*/
+    right: 10px;
+    position: absolute;
+    padding: 10px;
+    top: 510px;
+    margin-top: 0px;
+    margin-right: 550px;margin-bottom: 0px;
+    
+    margin-bottom: 0px;
+    
+}
+ #score_text{
+     text-align: center;
+     top: 100px;
+     font-family: fantasy;
+     color: rgb(122, 62, 38)
+}
+
+#level{
+     font-family: fantasy;
+     width: 120px;
+     height: 70px;
+     color: rgb(122, 62, 38);text-align: center;
+     background-image: url(5b.svg);
+     position: absolute;
+     top: 510px;
+     margin-left: 550px;
+     /*right: 10px;
+     padding: 10px;
+     margin-top: 0px;
+     margin-bottom: 0px;*/
+     text-align: center;
+}
+#ende{
+    width: 270px;
+    height: 250px;
+    background-image: url(7a.svg);
+    margin-left: 550px;
+    top: 200px;
+    position: absolute;
+    display:none;
+    
+
+}
+
+.block{
+    width: 400px;
+    height: 20px;
+    /*background-color: greenyellow;*/
+    background-image: url(1.svg);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+.hole{
+    width: 40px;
+    height: 20px;
+    background-image: url(4.svg);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
